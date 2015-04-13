@@ -15,7 +15,7 @@ You will need to have a working Go environment (http://golang.org)
 ------
 
 == Main concept
-Grab matching dockerfiles (si if something in Docker is useable)
+Grab matching dockerfiles (see if something in Docker is useable)
 
 Generate content like the following : 
 
