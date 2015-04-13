@@ -1,0 +1,10 @@
+FROM my/great/image
+MAINTAINER <c.gatay@code-troopers.com>
+
+MIXIN https://raw.githubusercontent.com/code-troopers/docker-jenkins-slaves/master/jenkins-slave-dind/Dockerfile
+
+RUN apt-get update
+
+MIXIN https://raw.githubusercontent.com/code-troopers/docker-jenkins-slaves/master/jenkins-slave-dind/Dockerfileaz
+
+RUN apt-cache search my-package

@@ -1,5 +1,11 @@
 = Docker mixin generator
 
+== How to build
+
+You will need to have a working Go environment (http://golang.org)
+
+`go build` will generate a working executable file.
+
 == Expected file syntax
 
 ------
