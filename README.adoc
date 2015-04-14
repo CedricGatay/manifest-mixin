@@ -28,14 +28,11 @@ Generate content like the following :
 # END MIXIN repo/image:tag
 ------
 
-== Technical constraints
+== Technical limits
 
-Choose a language allowing to run everywhere without much dependencies
+ADD / COPY commands are likely not to work (we can't fetch remote files easily).
 
- * shell script / batch windows
- * go 
- * java (native)
- * c  
+We won't help with command targeted at different base OSes either
 
 
 == License
